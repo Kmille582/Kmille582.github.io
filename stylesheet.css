@@ -1,0 +1,38 @@
+* {
+    font-family: 'DM Sans', sans-serif;
+    background-color: rgb(255, 245, 230);
+    text-transform: none;
+    background-image: none;
+    background-repeat:none
+}
+h1 {
+    color: rgb(63, 90, 59);    
+    font-size: 6em;
+    text-align: center;
+    line-height: 50%;
+    text-decoration: none
+}
+h2 {
+    color: rgb(118, 139, 115);
+    font-size: 1.4em;
+    text-align:center;
+}
+ul {
+    list-style-type: circle;
+}
+.about {
+    width: 50%;
+}
+img {
+    width: 40%;
+    height: 40%;
+}
+a:link {
+    color:rgb(63, 90, 59)
+}
+a:visited {
+    color:rgb(118, 139, 115)
+}
+a:hover {
+    color:rgb(183, 199, 181)
+}
