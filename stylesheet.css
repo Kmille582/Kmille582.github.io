@@ -3,9 +3,11 @@
 }
 h2 {
     font-size: 50px;
+    font-weight: 500;
     color:rgb(63, 90, 59);
 }
 h5 {
+    font-weight: 500;
     color:rgb(63, 90, 59);
 }
 .light-font {
