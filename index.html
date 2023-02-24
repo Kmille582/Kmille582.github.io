@@ -6,15 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="skeleton.css" type="text/css" rel="stylesheet">
     <link href="normalize.css" type="text/css" rel="stylesheet">
+    <link href="stylesheet.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="wrapper">
+    <div class="container">
     <header>
-        <h1>Kathryn Miller</h1>
-        <h2>DSGN 260 - Digital Media Design
-        <br><p>2023 Winter Quarter</p>
-        </h2>
-        </header>
+        <h2>Kathryn Miller</h2>
+        <h5>DSGN 260 - Digital Media Design
+        <p>2023 Winter Quarter</p>
+        </h5>
+    </header>
         <nav>
             <ul>
                 <li><a href="https://www.figma.com/proto/qDRKeIXeq0oVOxyqQ2HhEp/Project-1---Salmon-Defense?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1">Project 1</a></li>
@@ -23,18 +27,22 @@
                 <li><a href="#">Project 2 process</a></li>
             </ul>
         </nav>
-        <div class="columns col-1 right-margin">
-            <img src="images/capybara-in-flowers.jpg"/>
-        </div>
-        <div class="columns col-2">
-            <p>My name is Kathryn Miller, I’m a senior Design student at Western Washington University. I’ve been at Western since 2019 and I’ve loved every second of it. I live with my wonderful fiancé named Mason, he’s been putting up with me for almost 7 years now! My hobbies include drawing, being a film snob, and horseback riding. I’ve been working with horses for about 15 years, and I hope to own my own horses someday! I currently have 1 pet, a young cat named Milk. She’s a little terror and our downstairs neighbors are not fans of her 2 AM zoomies. I am very close with my family who live in Sammamish, WA – my mom, my dad, and my younger brother. More talents of mine include killing houseplants, acquiring excessive knowledge on really niche topics, and scouring Zillow for interesting real estate.</p>
-        </div>
         <br>
-        <hr>
-        <footer>
-            <p>Copyright 2023
-            <br>mille582@wwu.edu</p>
-        </footer>
+        <br>
+        <div class="row">
+            <div class="one-third column capybara-image">
+                <img src="images/capybara-in-flowers.jpg"/>
+            </div>
+                <div class="two-thirds column light-font">
+                    <p>My name is Kathryn Miller, I’m a senior Design student at Western Washington University. I’ve been at Western since 2019 and I’ve loved every second of it. I live with my wonderful fiancé named Mason, he’s been putting up with me for almost 7 years now! My hobbies include drawing, being a film snob, and horseback riding. I’ve been working with horses for about 15 years, and I hope to own my own horses someday! I currently have 1 pet, a young cat named Milk. She’s a little terror and our downstairs neighbors are not fans of her 2 AM zoomies. I am very close with my family who live in Sammamish, WA – my mom, my dad, and my younger brother. More talents of mine include killing houseplants, acquiring excessive knowledge on really niche topics, and scouring Zillow for interesting real estate.</p>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <footer class="light-font">
+                <p>Copyright 2023
+                <br>mille582@wwu.edu</p>
+            </footer>
     </div>
 </body>
 </html>
