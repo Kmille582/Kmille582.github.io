@@ -29,8 +29,12 @@
     margin: 37% 0% 0% 0%;
 }
 .body > img {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
+    animation-duration: 1.8s;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 #topic-head1 {
     font-family:'Rubik Mono One', sans-serif;
@@ -44,3 +48,17 @@
     font-family:'Rubik Mono One', sans-serif;
     font-size: 20px;
 }
+@keyframes bounce {
+    0% {
+        transform: translate(0px, 0px)
+      }
+      25% {
+        transform: translate(0px, 15px)
+      }
+      50% {
+        transform: translate(0px, -15px)
+      }
+      100% {
+        transform: translate (0px,0px)
+      }
+    }
